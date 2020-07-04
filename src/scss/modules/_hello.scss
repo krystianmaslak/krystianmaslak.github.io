@@ -1,22 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700&display=swap");
-@import "~normalize.css";
-
-@import "_variables";
-@import "modules/hello.scss";
-
-body {
-  background: #ffffff;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  font-family: "Nunito", sans-serif;
-}
-
-.main {
-}
-
 .content {
   width: 982px;
   height: 600px;
@@ -45,5 +26,4 @@ body {
       font-weight: bold;
       text-decoration-line: underline;
     }
-  }
-}
+  }}
