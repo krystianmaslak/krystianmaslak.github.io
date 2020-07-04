@@ -2,7 +2,7 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/_hello.scss";
 
 body {
   background: #ffffff;
@@ -15,35 +15,6 @@ body {
 }
 
 .main {
+  min-height: 100vh;
 }
 
-.content {
-  width: 982px;
-  height: 600px;
-  background: pink;
-  text-align: center;
-  &__cloud {
-  }
-  &__cloud {
-  }
-  &__header {
-    color: #234361;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    span {
-      color: #1070ca;
-    }
-  }
-  &__about {
-    color: #425a70;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    span {
-      color: #1070ca;
-      font-weight: bold;
-      text-decoration-line: underline;
-    }
-  }
-}
