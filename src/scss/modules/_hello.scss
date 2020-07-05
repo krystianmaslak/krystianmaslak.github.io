@@ -1,31 +1,82 @@
-.content {
-  width: 982px;
-  height: 600px;
-  background: pink;
-  text-align: center;
-  &__cloud {
-  }
-  &__cloud {
-  }
-  &__header {
-    color: #234361;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    span {
-      color: #1070ca;
+.hello {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 100vh;
+  &__content {
+    margin-top: 80px;
+    width: 100%;
+    max-width: 982px;
+    height: 600px;
+    //     left: calc(50% - 982px/2);
+    // top: 80px;
+    background: #ffffff;
+    text-align: center;
+    &__cloud {
+      // margin: 0px 177px 0px 402px;
+      // top: 0px;
+      // width: 403px;
+      // height: 228px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      margin-left: 177px;
+      &--cloud {
+        top: 16px;
+        padding: 16px 19px;
+        font-size: 32px;
+        width: 230px;
+        height: 72px;
+        color:#FFFFFF;
+        /* Blue */
+
+        background: #1070ca;
+        border-radius: 16px;
+      }
+
+      &--avatar {
+        width: 178px;
+        height: 178px;
+      }
     }
-  }
-  &__about {
-    color: #425a70;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    span {
-      color: #1070ca;
-      font-weight: bold;
-      text-decoration-line: underline;
+    &__text {
+      margin: 72px 76px 0 76px;
+      text-align: center;
+      max-width: 830px;
+      height: 184px;
+      &--header {
+        color: #234361;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        span {
+          color: #1070ca;
+        }
+      }
+      &--about {
+        color: #425a70;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        span {
+          color: #4DA8FF;
+          font-weight: bold;
+          text-decoration-line: underline;
+        }
+      }
+      &--contact {
+        background: #4da8ff;
+        border-radius: 64px;
+        padding: 4px 24px;
+        text-decoration: none;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        width: 278px;
+        height: 48px;
+        flex: none;
+      }
     }
   }
 }
-

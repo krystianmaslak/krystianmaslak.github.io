@@ -1,0 +1,16 @@
+.skills {
+  background: #1070ca;
+  width: 100%;
+  min-height: 100vh;
+
+  &__content {
+    &__header {
+      color: #ffffff;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      text-align: center;
+      padding-top: 80px;
+    }
+  }
+}

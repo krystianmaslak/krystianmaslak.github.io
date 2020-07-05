@@ -3,18 +3,27 @@
 
 @import "_variables";
 @import "modules/_hello.scss";
+@import "modules/_skills.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
-  background: #ffffff;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
   font-family: "Nunito", sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.main {
-  min-height: 100vh;
+main {
+  margin: 0;
+  padding: 0;
 }
-
